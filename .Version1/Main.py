@@ -54,7 +54,7 @@ class Main:
                 #writes data
         window.mainloop()
     def getUrl(self):
-        self.question = input("Write what kind of product do you want to search. From Ceneo exapmple komputery for computer or Bizuteria_i_zegarki")
+        self.question = input("Write what kind of product do you want to search. From Ceneo exapmple komputery for computer or Bizuteria_i_zegarki: ")
         url = "https://www.ceneo.pl/"+self.question
         return url
 aplikacja = Main()
