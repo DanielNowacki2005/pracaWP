@@ -1,4 +1,4 @@
-import Request,Sorting,Showing
+import Request,Sorting
 import tkinter as tk
 class Main:
     def __init__(self):
