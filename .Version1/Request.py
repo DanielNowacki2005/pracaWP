@@ -9,4 +9,7 @@ class Request:
     def getData(self):
         request = requests.get(self.url,allow_redirects= True)
         self.queryFull = BeautifulSoup(request.text,"html.parser")
-        return self.queryFull
+        if self.queryFull != []:
+            return self.queryFull
+        else:
+             return 1
