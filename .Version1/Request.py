@@ -1,13 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 class Request: 
-    def __init__(self,url,window):
+    def __init__(self,url):
             self.url = url
-            self.queryFull = ""
-            self.amount = 25
-            self.requestWebsite = ""
-            self.request = ""
+            print(self.url)
+            self.getData()
                 #Connect to targeted website and downoald from api
     def getData(self):
         request = requests.get(self.url,allow_redirects= True)
         self.queryFull = BeautifulSoup(request.text,"html.parser")
+        return self.queryFull
