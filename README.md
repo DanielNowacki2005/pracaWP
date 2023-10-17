@@ -7,3 +7,6 @@ Libraries used are.<br>
 request<br>
 re<br>
 tkinter<br>
+#to do 
+add DOCKER
+and CI or automatic conversion to exe
