@@ -7,8 +7,8 @@ Program downloads data for user from ceneo and then shows them to user.<br>
 Program is written in python.<br>
 Libraries used are.<br>
 request<br>
-re<br>
 tkinter<br>
+bs4<br>
 #to do 
 add DOCKER
 and CI or automatic conversion to exe
