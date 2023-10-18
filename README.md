@@ -12,3 +12,4 @@ bs4<br>
 #to do 
 add DOCKER
 and CI or automatic conversion to exe
+Debug in pycharm and gett something less or more 8/10 
