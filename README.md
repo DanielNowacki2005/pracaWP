@@ -2,7 +2,8 @@
 This is project that has be done for wp.<br>
 To find program go to .Version1 then unzip Main in Main is Main.exe
 Program works by double clicking Main.exe.<br>
-Program downloads data from user from ceneo and then shows them to user.<br>
+Window will open asking about what to searc<br>
+Program downloads data for user from ceneo and then shows them to user.<br>
 Program is written in python.<br>
 Libraries used are.<br>
 request<br>
