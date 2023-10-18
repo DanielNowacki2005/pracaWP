@@ -1,6 +1,6 @@
-.requests
-.log
-.BeautifulSoup
+/build/Main
+.Main.zip
+.zip
+.toc
+.txt
 .DOCKER
-.md
-.tkinter
