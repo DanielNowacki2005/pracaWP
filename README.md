@@ -1,4 +1,5 @@
-#pracaWP<br>
+#Project Name
+#WP Daniel Nowacki 2023<br>
 This is project that has be done for wp.<br>
 To find program go to .Version1 then unzip Main in Main is Main.exe
 Program works by double clicking Main.exe.<br>
