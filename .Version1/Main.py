@@ -22,6 +22,7 @@ class Main:
     def showAsTable(self):
         #shows data as table
         window = tk.Tk()
+        window.title("WP Daniel Nowacki 2023")
         window.geometry("1800x900")
         self.amount = 20
         #headers of the table
