@@ -3,6 +3,7 @@ import tkinter as tk
 class Main:
     def __init__(self):
         self.url = ""
+        #Checks if user dosen't want to exit
         while self.url != "https://www.ceneo.pl/exit" :
             self.url = self.getUrl()#gets user item
             if self.url == "https://www.ceneo.pl/exit":
