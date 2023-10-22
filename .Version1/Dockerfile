@@ -9,3 +9,4 @@ CMD ["python","./Main.py"]
 #docker run -p 4000:80 -it main_dockerization
 #fix 
 #_tkinter.TclError: no display name and no $DISPLAY environment variable
+#For some reason dosen't want to download data
