@@ -5,6 +5,7 @@ ADD Sorting.py .
 RUN pip install tk
 RUN pip install BeautifulSoup4
 RUN pip install requests
+ENV export DISPLAY=":0"
 CMD ["python","./Main.py"]
 #docker run -p 4000:80 -it main_dockerization
 #fix 
