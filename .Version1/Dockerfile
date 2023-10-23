@@ -5,9 +5,13 @@ ADD Sorting.py .
 RUN pip install tk
 RUN pip install BeautifulSoup4
 RUN pip install requests
-ENV export DISPLAY=":0"
+ENV USERNAME myNewUserName
 CMD ["python","./Main.py"]
-#docker run -p 4000:80 -it main_dockerization
-#fix 
-#_tkinter.TclError: no display name and no $DISPLAY environment variable
-#Still i don't know how to fix it
+ENTRYPOINT  ["python","./Main.py"]
+RUN -it --rm \
+    --user=$(id -u $USER):$(id -g $USER) \
+    --env="DISPLAY" \
+    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+    osrf/ros:indigo-desktop-full
+#to run in interactive mode
+#docker run -p 4000:80 -it main_dockerization 
