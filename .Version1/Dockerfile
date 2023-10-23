@@ -15,3 +15,4 @@ ENTRYPOINT  ["python","./Main.py"]
 #    osrf/ros:indigo-desktop-full
 #to run in interactive mode
 #docker run -p 4000:80 -it main_dockerization 
+#I don't think error is beacause of this file but linux display configuration.
