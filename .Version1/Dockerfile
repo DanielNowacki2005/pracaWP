@@ -43,4 +43,4 @@ ENTRYPOINT  ["python","./Main.py"]
 #to do
 #somehow activate virtulization in vm by using cmd because virtual box dosen't agree that this is possible by not allowing graying out the check for virtualization
 #but before that i need to add virtual box to dependencies on windows so windows acknowlodges that it exist
-#
+#get this VBoxManage.exe: error: The machine is not mutable (state is Saved)
