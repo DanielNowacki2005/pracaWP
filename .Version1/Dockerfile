@@ -17,3 +17,6 @@ ENTRYPOINT  ["python","./Main.py"]
 #docker run -p 4000:80 -it main_dockerization 
 #I don't think error is beacause of this file but linux display configuration.
 #Now i believe that this dosen;t work not because lack of something but it needs to activated inside linux with graphical interface
+#I hope that this works it probably needs to be activated inside linux with graphical interface.
+#I really want to check if it i did this right but i with how long does me to even launch docker on linux and how many attemps i did i don't see it 
+#I hope that i will check it today on linux
