@@ -10,8 +10,3 @@ Libraries used are.<br>
 request<br>
 tkinter<br>
 bs4<br>
-#to do 
-add DOCKER
-Somehow to connect linux graphical interface to Docker for tkinter
-and CI or automatic conversion to exe
-Debug in pycharm and gett something less or more 8/10 
